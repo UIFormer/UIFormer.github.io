@@ -1,0 +1,22 @@
+[
+    [
+        "com.google.android.permissioncontroller",
+        "com.android.permissioncontroller.permission.ui.ReviewPermissionsActivity"
+    ],
+    [
+        "anti.tip",
+        "PopupWindow"
+    ],
+    [
+        "anti.tip",
+        "anti.tip.Tip"
+    ],
+    [
+        "anti.tip",
+        "anti.tip.Tip"
+    ],
+    [
+        "anti.tip",
+        "anti.tip.Tip"
+    ]
+]

@@ -1,0 +1,83 @@
+[
+    {
+        "action_type": "CLICK",
+        "coords": [
+            [
+                386,
+                204
+            ]
+        ]
+    },
+    {
+        "action_type": "CLICK",
+        "coords": [
+            [
+                721,
+                102
+            ]
+        ]
+    },
+    {
+        "action_type": "TEXT",
+        "message": "This is a note for the expense",
+        "clear": true,
+        "coords": [
+            [
+                385,
+                756
+            ]
+        ]
+    },
+    {
+        "action_type": "CLICK",
+        "coords": [
+            [
+                718,
+                105
+            ]
+        ]
+    },
+    {
+        "action_type": "TEXT",
+        "message": "This is a note for the expense. Additional note added.",
+        "clear": true,
+        "coords": [
+            [
+                385,
+                759
+            ]
+        ]
+    },
+    {
+        "action_type": "CLICK",
+        "coords": [
+            [
+                720,
+                106
+            ]
+        ]
+    },
+    {
+        "action_type": "CLICK",
+        "coords": [
+            [
+                384,
+                758
+            ]
+        ]
+    },
+    {
+        "action_type": "TEXT",
+        "message": "This is a note for the expense. Additional note added. New note added.",
+        "clear": true,
+        "coords": [
+            [
+                383,
+                756
+            ]
+        ]
+    },
+    {
+        "action_type": "STOP"
+    }
+]

@@ -1,0 +1,77 @@
+[
+    {
+        "action_type": "CLICK",
+        "coords": [
+            [
+                384,
+                1102
+            ]
+        ]
+    },
+    {
+        "action_type": "CLICK",
+        "coords": [
+            [
+                384,
+                1103
+            ]
+        ]
+    },
+    {
+        "action_type": "CLICK",
+        "coords": [
+            [
+                680,
+                777
+            ]
+        ]
+    },
+    {
+        "action_type": "CLICK",
+        "coords": [
+            [
+                618,
+                307
+            ]
+        ]
+    },
+    {
+        "action_type": "LONGCLICK",
+        "coords": [
+            [
+                384,
+                303
+            ]
+        ]
+    },
+    {
+        "action_type": "CLICK",
+        "coords": [
+            [
+                539,
+                1124
+            ]
+        ]
+    },
+    {
+        "action_type": "CLICK",
+        "coords": [
+            [
+                382,
+                711
+            ]
+        ]
+    },
+    {
+        "action_type": "CLICK",
+        "coords": [
+            [
+                628,
+                798
+            ]
+        ]
+    },
+    {
+        "action_type": "STOP"
+    }
+]

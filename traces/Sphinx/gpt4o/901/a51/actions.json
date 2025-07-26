@@ -1,0 +1,45 @@
+[
+    {
+        "action_type": "CLICK",
+        "coords": [
+            [
+                691,
+                1135
+            ]
+        ]
+    },
+    {
+        "action_type": "CLICK",
+        "coords": [
+            [
+                628,
+                748
+            ]
+        ]
+    },
+    {
+        "action_type": "TEXT",
+        "message": "56.6",
+        "clear": true,
+        "coords": [
+            [
+                577,
+                129
+            ]
+        ]
+    },
+    {
+        "action_type": "TEXT",
+        "message": "10",
+        "clear": true,
+        "coords": [
+            [
+                575,
+                358
+            ]
+        ]
+    },
+    {
+        "action_type": "STOP"
+    }
+]

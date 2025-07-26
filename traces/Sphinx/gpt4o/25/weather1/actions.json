@@ -1,0 +1,81 @@
+[
+    {
+        "action_type": "CLICK",
+        "coords": [
+            [
+                383,
+                956
+            ]
+        ]
+    },
+    {
+        "action_type": "CLICK",
+        "coords": [
+            [
+                749,
+                19
+            ]
+        ]
+    },
+    {
+        "action_type": "CLICK",
+        "coords": [
+            [
+                71,
+                72
+            ]
+        ]
+    },
+    {
+        "action_type": "CLICK",
+        "coords": [
+            [
+                467,
+                807
+            ]
+        ]
+    },
+    {
+        "action_type": "CLICK",
+        "coords": [
+            [
+                614,
+                911
+            ]
+        ]
+    },
+    {
+        "action_type": "CLICK",
+        "coords": [
+            [
+                385,
+                835
+            ]
+        ]
+    },
+    {
+        "action_type": "SWIPE",
+        "coords": [
+            [
+                506,
+                986
+            ],
+            [
+                277,
+                986
+            ]
+        ]
+    },
+    {
+        "action_type": "CLICK",
+        "coords": [
+            [
+                553,
+                906
+            ]
+        ]
+    },
+    {
+        "action_type": "STOP"
+    }
+]

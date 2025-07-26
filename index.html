@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>UIFormer: Token-Efficient UI Transformations for LLM-based Agents</title>
+  <style>
+    .comparison {
+      display: flex;
+      gap: 24px;
+      justify-content: center;
+      align-items: stretch; 
+      flex-wrap: wrap;
+    }
+
+    .screenshot-block,
+    .hierarchy-block {
+      flex: 1 1 300px;
+      max-width: 420px;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .screenshot {
+      max-width: 100%;
+      border-radius: 8px;
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    }
+
+    .hierarchy-text {
+      background-color: #f5f5f5;
+      padding: 16px;
+      border-radius: 8px;
+      font-family: monospace;
+      white-space: pre;       
+      overflow-x: auto;       
+      font-size: 14px;
+      line-height: 1.6;
+      flex-grow: 1;
+      box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.05);
+    }
+    body {
+      font-family: 'Inter', sans-serif;
+      max-width: 800px;
+      margin: 40px auto;
+      padding: 0 20px;
+      line-height: 1.7;
+      color: #333;
+      background-color: #fafafa;
+    }
+    h1, h2 {
+      color: #222;
+      border-bottom: 2px solid #eee;
+      padding-bottom: 0.3em;
+    }
+    .section {
+      background: #fff;
+      border: 1px solid #ddd;
+      border-radius: 12px;
+      padding: 24px;
+      margin-bottom: 40px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+    }
+    img {
+      border-radius: 8px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+    }
+    .artifact-note {
+      font-style: italic;
+      color: #555;
+    }
+    a {
+      color: #0066cc;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <h1>From User Interface to Agent Interface:<br>Efficiency Optimization of UI Representations for LLM Agents</h1>
+  <div class="section">
+  <h2>Method Overview</h2>
+  <img src="overview-1.png" alt="Method Overview" style="max-width: 100%; height: auto;">
+  </div>
+  <div class="section">
+    <h2>Key Points</h2>
+    <ul>
+      <li><b>Problem:</b> UI representations consume up to 80–99% of LLM agent tokens, creating a major efficiency bottleneck.</li>
+      <li><b>Goal:</b> Automatically optimize UI structures to reduce token usage while preserving task-relevant semantics.</li>
+      <li><b>Approach:</b> UIFormer synthesizes transformation programs using a DSL and LLM-guided iterative refinement with efficiency and correctness rewards.</li>
+      <li><b>Integration:</b> Lightweight plugin with minimal changes to existing LLM agents.</li>
+      <li><b>Results:</b> 48.7–55.8% token reduction across 3 benchmarks and 5 LLMs, with minimal overhead and maintained/improved performance.</li>
+      <li><b>Deployment:</b> Successfully applied in real-world industry systems.</li>
+    </ul>
+  </div>
+  
+<div class="section">
+  <h2>UIFormer Example</h2>
+  <div class="comparison">
+    <div class="screenshot-block">
+      <h3>Original UI Screenshot</h3>
+      <img src="test.png" alt="Original Screenshot" class="screenshot">
+    </div>
+    <div class="hierarchy-block">
+      <h3>Optimized Hierarchy</h3>
+      <pre class="hierarchy-text">
+a WebView (text: Obsidian)
+    [3] a View (text: Version 1.5.12; actions: clickable)
+        a View ()
+            [0] a View (text: Setup Obsidian Sync; actions: clickable)
+            [1] a View (text: Create new vault; actions: clickable)
+            [2] a View (text: Open folder as vault; actions: clickable)
+      </pre>
+    </div>
+  </div>
+</div>
+
+  <div class="section">
+    <h2>Supplementary Results</h2>
+    <p>
+      This site provides the anonymized <b>code</b>, <b>traces</b>, and <b>logs</b> used in our experiments.
+      All materials correspond directly to the results reported in the paper.
+    </p>
+    <p>
+      <b>Code repository:</b>
+      <a href="https://github.com/UIFormer/UIFormer.github.io" target="_blank" rel="noopener">
+        https://github.com/UIFormer/UIFormer.github.io
+      </a>
+    </p>
+  </div>
+</body>
+</html>

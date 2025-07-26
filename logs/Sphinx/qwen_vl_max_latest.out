@@ -1,0 +1,63 @@
+task num 59
+8 thingslist success
+24 weather2 success
+26 weather2 success
+105 home_budget success
+109 google_chrome success
+110 firefox success
+111 firefox success
+112 firefox success
+201 timer success
+203 weather success
+203 weatherforecast success
+206 googlemap success
+206 waze2 success
+901 a51 success
+901 a52 success
+901 a53 success
+901 a54 success
+902 a51 success
+902 a52 success
+902 a53 success
+902 a54 success
+902 a55 success
+903 a53 success
+903 a55 success
+904 a13 success
+906 a21 success
+906 a22 success
+906 a23 success
+907 a23 success
+910 shop1 success
+910 shop2 success
+912 fox success
+913 abc success
+913 theguardian success
+914 abc success
+914 fox success
+914 theguardian success
+916 fox success
+917 usatoday success
+918 abc success
+918 reuters success
+918 theguardian success
+919 abc success
+919 fox success
+919 theguardian success
+920 smartnews success
+920 theguardian success
+920 usatoday success
+921 fox success
+921 reuters success
+921 usatoday success
+==========
+llm: 
+observation_mode: 
+sr: 0.3128834355828221
+acp: 0.3413087934560327
+token_usage: 952277
+total page: 1339
+input token: 807227
+output token: 145050
+avg in token per page: 602.8581030619865
+avg token per page: 711.185212845407
